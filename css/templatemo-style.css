@@ -255,6 +255,25 @@ https://templatemo.com/tm-516-known
   /*---------------------------------------
       MENU              
   -----------------------------------------*/
+  .searchbar{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 2px solid black;
+    height: 40.5px;
+    width: 400px;
+    padding-left: 20px;
+    margin-right: 0px;
+    padding-top: .5px;
+}
+button{
+  margin-left: -5px;
+  padding-left: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius:20px ;
+  border:2px solid black;
+  height: 40.5px;
+  width: 35px;
+}
 
   .custom-navbar {
     background: #ffffff;
@@ -291,7 +310,7 @@ https://templatemo.com/tm-516-known
     width: 30px;
     height: 30px;
     line-height: 30px;
-    text-align: center;
+    text-align: right;
     display: inline-block;
     margin-right: 5px;
   }
