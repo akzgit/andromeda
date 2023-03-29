@@ -14,15 +14,16 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
+.signupbody{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background: rgb(253, 194, 159);
-    background-image: url("background.jpg");
-    background-position: 50% 60%;
-    background-size: cover;
+    background-position:center;
+    background-size:cover;
+    height: 100%;
+    background-repeat: no-repeat;
     
 }
 
@@ -40,11 +41,6 @@ body{
     transition: 0.5s;
 }
 
-/* .wrapper:hover{
-    border: 4px solid #00FFD1;
-    box-shadow: 0 0 20px #00FFD1,
-                inset 0 0 20px #31C6D4;
-} */
 
 h2{
     font-size: 2em;
@@ -53,20 +49,18 @@ h2{
     transition: 0.5s;
 }
 
-/* .wrapper:hover h2{
-    color: #FFFF00;
-    
-} */
 
 .input-box{
     position: relative;
     width: 320px;
-    margin:30px 0; 
+    margin:30px 0;
+   
+    
 
    
 }
 
-.input-box input{
+.input-box .input{
     width: 100%;
     height: 50px;
     border-radius: 7px;
@@ -79,7 +73,7 @@ h2{
     transition: 0.5s;
 }
 
-.wrapper:hover .input-box input{
+.wrapper:hover .input-box .input{
     border: 2px solid #0f3c91;
     box-shadow: 0 0 10px #ffffff,
                 inset 0 0 10px #ffffff;
@@ -120,7 +114,7 @@ h2{
     text-decoration: underline;
 }
 
-button{
+.signupbt{
     position: relative;
     width: 100%;
     height: 45px;
@@ -135,7 +129,7 @@ button{
     transition: 0.5s;
 }
 
-.wrapper:hover button {
+.wrapper:hover .signupbt{
     color: var(--white-color);
     background: #0f3c91;
     box-shadow: 0 0 10px solid #ff0000,
@@ -154,7 +148,7 @@ button{
 }
 
 .registration-link p a{
-    color: var(--light-bacco);
+    color: var(--white-color);
     text-decoration: none;
     font-weight: 600;  
     transition: 0.5s;
@@ -170,7 +164,7 @@ button{
     text-decoration: underline;
 }
 .logoimg{
-    margin-top:5px;
+    margin-top:35px;
     padding-left:40px;
 
 }
